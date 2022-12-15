@@ -116,4 +116,4 @@ for i in range(2003,2022):
     sex_input_by_user=gender, target_disease_list=["999"]
 )
     os.chdir(output_folder)
-    data.to_csv(f"Mort_{i}_{gender}.csv")
+    data.to_csv(f"Inci_{i}_{gender}.csv")
