@@ -118,3 +118,4 @@ for i in range(2003,2022):
 )
     os.chdir(output_folder)
     data.to_csv(f"Mort_{i}_{gender}.csv")
+    
