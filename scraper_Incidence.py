@@ -103,7 +103,8 @@ web_elements = {
     "step4": '//*[@id="content"]/div/div/div[2]/form/fieldset[4]/p/input[2]',
     "execute": '//*[@id="content"]/div/div/div[2]/form/div/input[1]'
 }
-gender="m"
+print("Are u scraping data for m/f?")
+gender=str(input())
 output_folder=r"C:\Users\Yikun\OneDrive - The University Of Hong Kong\Documents\GitHub\hk_cancer_reg\data_inci"
 
 ########################################################################################
